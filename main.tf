@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 #Resource Block
-resource "aws_instance" "Testers" {
+resource "aws_instance" "Starscream" {
     ami = "ami-030d7e8d6fbca8332"
     instance_type = var.instance_type
     tags = {
